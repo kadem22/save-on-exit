@@ -26,7 +26,7 @@ jobs:
         with:
           combine: true
           sdk: v5.11.2
-          bindings-ref: v5.11.2
+          bindings-ref: 1605f500d053f8de122bf5c7dc6d17c24866e02e
 
   package:
     name: Package builds
