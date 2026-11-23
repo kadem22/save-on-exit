@@ -1,0 +1,26 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "user.save-on-exit",
+	"name": "Save On Level Exit",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Saves your game data every time you exit a level, so closing GD from the taskbar doesn't lose progress.",
+	"settings": {
+		"save-on-quit": {
+			"type": "bool",
+			"name": "Save when quitting a level",
+			"default": true
+		},
+		"save-on-end-screen": {
+			"type": "bool",
+			"name": "Save when leaving from the level complete screen",
+			"default": true
+		}
+	}
+}
